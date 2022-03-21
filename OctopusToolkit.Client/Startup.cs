@@ -6,7 +6,6 @@ namespace OctopusToolkit.Client;
 
 public static class Startup
 {
-    private static IHostBuilder builder;
     private static IHost host;
 
     public static void Main(string[] args)
@@ -17,10 +16,9 @@ public static class Startup
 
     private static void Build()
     {
-        builder = Host.CreateDefaultBuilder()
-            .AddApplicationServices();
-
-        host = builder.Build();
+        host = Host.CreateDefaultBuilder()
+            .AddApplicationServices()
+            .Build();
     }
 
     private static void Start()
