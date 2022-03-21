@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OctopusToolkit.Client", "OctopusToolkit.Client\OctopusToolkit.Client.csproj", "{58371DCF-8A5E-4E15-B411-F16662E90AFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58371DCF-8A5E-4E15-B411-F16662E90AFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58371DCF-8A5E-4E15-B411-F16662E90AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58371DCF-8A5E-4E15-B411-F16662E90AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58371DCF-8A5E-4E15-B411-F16662E90AFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
