@@ -17,6 +17,8 @@ public static class Startup
     private static void Build()
     {
         host = Host.CreateDefaultBuilder()
+            .AddAppConfiguration()
+            .AddOptions()
             .AddApplicationServices()
             .Build();
     }
